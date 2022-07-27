@@ -44,7 +44,7 @@ int sumElements(int[] array)
     return sum;
 }
 
-int quantity = sumElements(arr);
+int sum = sumElements(arr);
 Console.WriteLine();
-Console.WriteLine($"Сумма нечетных элементов =: {quantity}");
+Console.WriteLine($"Сумма нечетных элементов =:" + sum);
 Console.WriteLine();
